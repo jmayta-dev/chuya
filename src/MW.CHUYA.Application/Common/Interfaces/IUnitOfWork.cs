@@ -4,5 +4,6 @@ namespace MW.CHUYA.Application.Common.Interfaces;
 
 public interface IUnitOfWork : IDisposable
 {
-    Task SaveChangesAsync(CancellationToken cancellationToken =  default);
+    Task SaveChangesAsync(CancellationToken cancellationToken = default);
+    Task RollbackAsync(CancellationToken cancellationToken = default);
 }
