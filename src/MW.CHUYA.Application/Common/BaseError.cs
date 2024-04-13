@@ -1,4 +1,4 @@
-namespace MW.CHUYA.Application.UseCases.Common.Base;
+namespace MW.CHUYA.Application.UseCases.Common;
 
 public class BaseError
 {
